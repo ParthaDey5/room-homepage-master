@@ -21,7 +21,6 @@ const handleRight = () => {
     
      <div className="league-spartan flex flex-col items-center w-full max-width-screen min-h-screen aspect-375/1538 lg:aspect-1440/800">
 
-      <img src="/public/design/desktop-design-slide-1.jpg" alt="" srcset="" className='absolute top-0 opacity-30 w-full'/>
     
       <div id='mobile-navigation' className='absolute inset-0 z-100 bg-black/40 hidden'>
       <div className='w-full h-119 flex items-center px-25 bg-white'>
