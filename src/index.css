@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+body{
+  overflow: hidden;
+}
+
+.league-spartan {
+        font-family: "League Spartan", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+      }
+
+      button{
+        cursor: pointer;
+      }
+
+
+
+ .Grey500{
+ color: hsl(0, 0%, 63%)
+} 
+ .Grey800{
+ background-color:hsl(0, 0%, 27%)
+} 
+p{
+  color: hsl(0, 0%, 63%);
+}
+
+@media (min-width:1024px) {
+  #mobile-navigation{
+    display: none;
+  }
+}
+
+ul li{
+  cursor: url('/images/cursor.png'), pointer;
+}
