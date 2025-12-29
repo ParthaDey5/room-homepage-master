@@ -77,7 +77,7 @@ const handleRight = () => {
         </div>
       
         <div
-    className="lg:flex! hidden w-full aspect-2/1.91 lg:h-148 transition-transform duration-500 ease-out overflow-hidden"
+    className="lg:flex! hidden w-full aspect-2/1.91 lg:h-148 transition-transform duration-500 ease-out"
     style={{ transform: `translateX(-${(number - 1) * 100}%)` }}
   >
     <img src="/images/desktop-image-hero-1.jpg" className="w-full shrink-0" alt="hero1" />
