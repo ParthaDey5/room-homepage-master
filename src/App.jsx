@@ -31,10 +31,17 @@ const handleRight = () => {
 
         
         <ul className="ml-75 text-black text-[4.5rem] font-bold flex items-center gap-[6.3rem]">
-          <li>home</li>
-          <li>shop</li>
-          <li>about</li>
-          <li>contact</li>
+          <li>
+            <a href="/">home</a>
+            </li>
+          <li>
+            <a href="/shop">shop</a>
+            </li>
+          <li>
+            <a href="/about">
+            about</a></li>
+          <li>
+            <a href="/contact">contact</a></li>
         </ul>
       </div>
       </div>
@@ -47,13 +54,20 @@ const handleRight = () => {
         <img src="/images/icon-hamburger.svg" alt="icon-hamburger" srcset="" className="w-21 lg:hidden" onClick={()=>document.getElementById('mobile-navigation').classList.toggle('hidden')}/>
         <h1 className="ml-120 lg:ml-0 text-white text-[8rem] lg:text-[2rem]">room</h1>
         <ul className="lg:flex hidden ml-16 text-white text-[1.1rem]  gap-[2.15rem]">
-          <li>home</li>
-          <li>shop</li>
-          <li>about</li>
-          <li>contact</li>
+          <li className='hover:underline hover:underline-offset-5'>
+            <a href="/">home</a>
+            </li>
+          <li className='hover:underline hover:underline-offset-5'>
+            <a href="/shop">shop</a>
+            </li>
+          <li className='hover:underline hover:underline-offset-5'>
+            <a href="/about"></a>
+            about</li>
+          <li className='hover:underline hover:underline-offset-5'>
+            <a href="/contact">contact</a></li>
         </ul>
       </nav>
-      <div className='lg:hidden w-full aspect-[2/1.91] flex transition-transform duration-500 ease-out overflow-hidden'
+      <div className='lg:hidden w-full aspect-[2/1.91] flex transition-transform duration-500 ease-out'
       style={{ transform: `translateX(-${(number - 1) * 100}%)` }}>
 
       <img
