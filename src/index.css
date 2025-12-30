@@ -32,6 +32,6 @@ p{
   }
 }
 
-ul li, button{
+ul li a, button{
   cursor: url('/images/cursor.png'), pointer;
 }
