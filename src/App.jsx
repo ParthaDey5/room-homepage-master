@@ -24,9 +24,9 @@ function App() {
           <img src="/images/icon-close.svg" className='navigation__toggle w-50' alt="close" onClick={()=>document.getElementById('mobile-navigation').classList.toggle('hidden')}/>
           <ul className="navigation__list ml-75 text-black text-[4.5rem] font-bold flex items-center gap-[6.3rem]">
             <li className="navigation__item"><a href="/">home</a></li>
-            <li className="navigation__item"><a href="/shop">shop</a></li>
-            <li className="navigation__item"><a href="/about">about</a></li>
-            <li className="navigation__item"><a href="/contact">contact</a></li>
+            <li className="navigation__item"><a href="/">shop</a></li>
+            <li className="navigation__item"><a href="/">about</a></li>
+            <li className="navigation__item"><a href="/">contact</a></li>
           </ul>
         </div>
       </div>
@@ -40,9 +40,9 @@ function App() {
             <h1 className="navigation__logo ml-120 lg:ml-0 text-white text-[8rem] lg:text-[2rem]">room</h1>
             <ul className="navigation__list lg:flex hidden ml-16 text-white text-[1.1rem] gap-[2.15rem]">
               <li className='navigation__item hover:underline hover:underline-offset-5'><a href="/">home</a></li>
-              <li className='navigation__item hover:underline hover:underline-offset-5'><a href="/shop">shop</a></li>
-              <li className='navigation__item hover:underline hover:underline-offset-5'><a href="/about">about</a></li>
-              <li className='navigation__item hover:underline hover:underline-offset-5'><a href="/contact">contact</a></li>
+              <li className='navigation__item hover:underline hover:underline-offset-5'><a href="/">shop</a></li>
+              <li className='navigation__item hover:underline hover:underline-offset-5'><a href="/">about</a></li>
+              <li className='navigation__item hover:underline hover:underline-offset-5'><a href="/">contact</a></li>
             </ul>
           </nav>
 
