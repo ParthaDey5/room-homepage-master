@@ -13,7 +13,7 @@ Users should be able to:
 - Navigate the image slider using mouse/trackpad or keyboard
 
 ### Screenshot
-- (./capture.png)
+![Screenshot](./capture.png)
 
 ---
 
