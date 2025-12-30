@@ -94,7 +94,7 @@ function App() {
         <div className="about__image about__image--dark w-full lg:w-[30rem] mt-50 lg:mt-0">
           <img src="/images/image-about-dark.jpg" alt="about-dark" className="w-full"/>
         </div>
-        <div className="about__content w-full lg:w-[40.5rem] h-full lg:px-10 px-35 pt-55 lg:pt-18">
+        <div className="about__content bg-white w-full lg:w-[40.5rem] h-full lg:px-10 px-35 pt-55 lg:pt-18">
           <h1 className="about__heading uppercase text-[4rem] lg:text-[1.1rem] tracking-[1.4rem] lg:tracking-[0.47rem] font-bold">About our furniture</h1>
           <p className="about__paragraph text-[4.45rem] lg:text-[1.16rem] leading-[5.9rem] lg:leading-[1.45rem] font-semibold tracking-tighter my-15 lg:my-4">
             Our multifunctional collection blends design and function to suit your individual taste. Make each room unique, or pick a cohesive theme that best express your interests and what inspires you. Find the furniture pieces you need, from traditional to contemporary styles or anything in between. Product specialists are available to help you create your dream space.
